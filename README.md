@@ -45,7 +45,7 @@ pip install -r requirements.txt
 3. Run the script:
 
 ```batch
-python fishing_script.py
+python bot.py
 ```
 
 4. The script will start simulating fishing actions. Press 'q' to stop the script.
