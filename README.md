@@ -18,7 +18,8 @@ pip install -r requirements.txt
 1. Start the roblox game Fishing Simulator
 2. Fullscreen
 3. Open fishing.bat
-4. If step three didn't work, enter the folder and copy the address, then go into command prompt and paste:
+
+If step three didn't work, enter the folder and copy the address, then go into command prompt and paste:
 ```batch
 cd The_Copied_Address
 ```
