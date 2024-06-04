@@ -15,6 +15,7 @@ def click(x, y):
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0)
 	time.sleep(random.uniform(0.001, 0.005))
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
+	time.sleep(1)
 
 # Function to check for air bubbles on the screen
 def check_air_bubbles_on_screen():
@@ -36,5 +37,5 @@ def check_air_bubbles_on_screen():
 while keyboard.is_pressed('q') == False:
 	# If bubbles are found, click
 	if check_air_bubbles_on_screen() == True:
-		click_random_throw()
+		click()
 	time.sleep(0.025)
