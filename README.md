@@ -1,59 +1,28 @@
-# Roblox Fishing Simulator Automation Bot
-
-This script provides automated mouse and keyboard actions to simulate fishing in the roblox game Fishing Simulator. It uses image recognition to detect fish and air bubbles on the screen and performs actions accordingly.
-
-> **Note**: This is a project I made a while ago and just wanted to share with the community. While I don't plan on further developing it, I'll still maintain it and address any issues that may arise.
-
-> **Disclaimer**: Using this script can theoretically get you banned from the game or Roblox platform. Use at your own risk and always respect the terms of service of the game and platform.
-
-## Features
-
--   Simulates mouse clicks and movements.
--   Detects fish and air bubbles using pixel color recognition.
--   Randomized click timings to simulate human-like interactions.
--   Keeps track of the number of fish caught.
--   Exits when the inventory is full.
-
-## Prerequisites
-
+## Requires:
 -   Python 3.8
 
-## Installation
-
-1. Clone the repository:
-
+## In command prompt:
 ```batch
 git clone https://github.com/Luois45/roblox-fishing-simulator-bot.git
 ```
-
-2. Navigate to the project directory:
 
 ```batch
 cd roblox-fishing-simulator-bot
 ```
 
-3. Install the required packages:
-
 ```batch
 pip install -r requirements.txt
 ```
 
-## Usage
-
+## Usage:
 1. Start the roblox game Fishing Simulator
-2. Position the game window such that the script can detect the necessary pixels (Fullscreen is recommended on a 1920x1080 screen)
-3. Run the script:
-
+2. Fullscreen
+3. Command prompt:
 ```batch
 python bot.py
 ```
 
-4. The script will start simulating fishing actions. Press 'q' to stop the script.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 
 This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+Credits to the original creator Luois45
