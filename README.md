@@ -17,10 +17,7 @@ pip install -r requirements.txt
 ## Usage:
 1. Start the roblox game Fishing Simulator
 2. Fullscreen
-3. Command prompt:
-```batch
-python bot.py
-```
+3. Open fishing.bat
 
 ## License
 
