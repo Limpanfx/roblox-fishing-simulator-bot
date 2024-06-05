@@ -31,10 +31,15 @@ def check_air_bubbles_on_screen():
 					break
 			if tempvar is True:
 				return True
+			
+def fish_click():
+	for _ in range(8):
+		time.sleep(0.47)
+		click(960, 960)
 
 # Main loop to check for bubbles until 'q' is pressed
 while keyboard.is_pressed('q') == False:
-	# If bubbles are found, click
 	if check_air_bubbles_on_screen() == True:
-		click()
+		click(960, 540)
+		fish_click()
 	time.sleep(1)
