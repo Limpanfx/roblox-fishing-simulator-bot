@@ -32,7 +32,8 @@ python bot.py
 
 ## Extra information: 
 - rain can interfear with the bubble color checking, making you click extra and messing up the bot, avoid any rainy weather by taking cover where you can't see the rain on your screen.
-- the bubbles have to be the original color because of the color check, meaning you can't use this bot for fishing in lava or similar
+- the bubbles have to be the original color because of the color check, meaning you can't use this bot for fishing in lava or similar.
+- private servers are free and totally recommended for using this, since it is bannable.
 
 ## License
 This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.
