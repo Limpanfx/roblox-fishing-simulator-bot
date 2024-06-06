@@ -36,14 +36,17 @@ def fish_click():
 		time.sleep(0.47)
 		click(960, 960)
 
-# Main loop to check for bubbles until 'q' is pressed
+fish_collected = 0
 last_bubble_time = time.time()  # Initialize the last bubble time
 while keyboard.is_pressed('q') == False:
 	if check_air_bubbles_on_screen() == True:
 		click(960, 540)
 		fish_click()
 		last_bubble_time = time.time()  # Update the last bubble time
+		fish_collected = fish_collected + 1
+		print("You've collected:", fish_collected, "fishes!")
 	elif time.time() - last_bubble_time > 20:  # If no bubbles for 20 seconds
 		click(960, 540)  # Throw the bait back into the water
 		last_bubble_time = time.time()  # Update the last bubble time
-	time.sleep(1)
+		fish_collected = fish_collected - 1
+print("In total you've collected:", fish_collected, "fishes!")
