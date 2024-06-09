@@ -17,18 +17,19 @@ pip install -r requirements.txt
 ## Usage:
 1. Start the roblox game Fishing Simulator
 2. Fullscreen
-3. Open fishing.bat
+3. Open Installer.bat
+4. Open fishing.bat
 
-If step three didn't work, enter the folder and copy the address, then go into command prompt and paste:
+If step four didn't work, enter the folder and copy the address, then go into command prompt and paste:
 ```batch
 cd The_Copied_Address
 ```
 ```batch
 python bot.py
 ```
-4. Ingame settings -> Game -> Disable Camera Shake
-5. Zoom in your screen as much as possible
-6. Pull out your fishing rod and throw the bait into the water
+5. Ingame settings -> Game -> Disable Camera Shake
+6. Zoom in your screen as much as possible
+7. Pull out your fishing rod and throw the bait into the water
 
 ## Extra information: 
 - rain can interfear with the bubble color checking, making you click extra and messing up the bot, avoid any rainy weather by taking cover where you can't see the rain on your screen.
