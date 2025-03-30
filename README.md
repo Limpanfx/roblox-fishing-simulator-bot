@@ -39,4 +39,6 @@ python bot.py
 
 ## License
 This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.
-Credits to the original creator Luois45
+
+## Credits
+Credits to the original creator Luois45 at https://github.com/louisa-uno/roblox-fishing-simulator-bot.
