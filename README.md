@@ -1,15 +1,20 @@
-## Requires:
--   Python 3.8 or above
+# Roblox Fishing Simulator Bot
 
-## In command prompt:
+An automated fishing bot for the Roblox game **Fishing Simulator**.  
+The bot handles casting, waiting for bites, and reeling automatically.
+
+## Requirements
+
+- Python 3.8 or above
+
+## Installation (Command Prompt)
+
 ```batch
 git clone https://github.com/Luois45/roblox-fishing-simulator-bot.git
 ```
-
 ```batch
 cd roblox-fishing-simulator-bot
 ```
-
 ```batch
 pip install -r requirements.txt
 ```
