@@ -37,10 +37,10 @@ python bot.py
 7. Pull out your fishing rod and throw the bait into the water
 
 ## Extra information: 
-- rain can interfear with the bubble color checking, making you click extra and messing up the bot, avoid any rainy weather by taking cover where you can't see the rain on your screen.
-- the bubbles have to be the original color because of the color check, meaning you can't use this bot for fishing in lava or similar.
-- private servers are free and totally recommended for using this, since it is bannable.
-- this code is made for 1920 x 1080 monitors.
+- Rain can interfere with the bubble color checking, causing extra clicks and breaking the bot; avoid rainy weather by taking cover where the rain is not visible on your screen.
+- The bubbles must be the original color because of the color check, so you cannot use this bot for fishing in lava or similar.
+- Private servers are free and highly recommended, since using bots is bannable.
+- This code is designed for 1920×1080 monitors.
 
 ## License
 This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.
